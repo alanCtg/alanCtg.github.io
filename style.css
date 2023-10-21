@@ -1,0 +1,13 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: teal;
+  margin-left: 50%;
+}
+
+p {
+  color: cyan;
+  margin: 50%;
+}
