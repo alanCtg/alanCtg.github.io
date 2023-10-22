@@ -42,14 +42,15 @@ p {
 }
 
 .button:hover {
-  background-color: grey;
-  color: green;
+  background-color: #7991A5;
+  color: white;
 }
 
 .partbtn {
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
 /*Display projects*/
 div.display {
@@ -59,7 +60,7 @@ div.display {
   background-attachment: fixed;
   background-size: 100% 100%;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   border: 1px solid black;
   width: 600px;
 }
