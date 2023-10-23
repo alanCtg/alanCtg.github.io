@@ -65,6 +65,10 @@ div.display {
   width: 600px;
 }
 
+div.expanded {
+  width: 600px;
+}
+
 div.display:hover {
   border: 2px solid white;
 }
