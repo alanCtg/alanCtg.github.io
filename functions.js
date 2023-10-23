@@ -25,3 +25,8 @@ document.querySelector(".partbtn").addEventListener("click", function(event) {
     }
 });
 
+//document.addEventListener("click", function (event) {
+//    if (event.target.classList.contains("display")) {
+//        event.target.classList.toggle("expanded");
+//    }
+//});
