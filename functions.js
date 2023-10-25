@@ -25,8 +25,17 @@ document.querySelector(".partbtn").addEventListener("click", function(event) {
     }
 });
 
-//document.addEventListener("click", function (event) {
-//    if (event.target.classList.contains("display")) {
-//        event.target.classList.toggle("expanded");
-//    }
-//});
+
+// Check current page and change the height of main in css
+document.addEventListener("DOMContentLoaded", function() {
+    const mainDiv = document.querySelector("main");
+
+    // Get the current page URL
+    const currentPage = window.location.pathname.split("/").pop(); 
+
+    if (currentPage === "index.html") {
+        mainDiv.style.height = "100vh";
+    } else {
+        mainDiv.style.height = "100%";
+    }
+});
